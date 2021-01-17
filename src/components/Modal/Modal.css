@@ -1,0 +1,60 @@
+.modal {
+  background: lavender;
+  z-index: 1;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 150px;
+  transition: all 0.3s ease-out;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding: 16px;
+  /* transform:translate(50%, 50%); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.margin {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.confirmBtn {
+    background-color: #36da4c;
+    cursor: pointer;
+    outline: none;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    width: 40%;
+}
+
+.confirmBtn:hover{
+    background-color: rgb(203, 231, 191);
+}
+
+.cancelBtn {
+    background-color: #d67519;
+    cursor: pointer;
+    outline: none;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    width: 40%;
+}
+
+.cancelBtn:hover{
+    background-color: rgb(223, 200, 200);
+}

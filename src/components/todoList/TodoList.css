@@ -1,0 +1,30 @@
+.todo {
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration-line: line-through;
+    background: greenyellow;
+}
+
+.listStyle {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+}
+
+.deleteTodo {
+    cursor: pointer;
+    color: red;
+    background: #ccc;
+    padding: 0 10px;
+}
+
+.deleteTodo:hover{
+    background-color: ghostwhite;
+}
+
+.editTodo {
+    margin-right: 2px;
+    color: black;
+}

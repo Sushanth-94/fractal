@@ -1,0 +1,33 @@
+body {
+    background-color: #F9F9F9;
+}
+
+.txtAlign {
+    text-align: center;
+}
+
+.listContainer {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.addBtn {
+    background-color: #1890FF;
+    cursor: pointer;
+    outline: none;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+}
+
+.addBtn:hover{
+    background-color: aqua;
+}
+
+.category {
+    margin: 6px 0;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-bottom: 1px solid #ccc;
+}
